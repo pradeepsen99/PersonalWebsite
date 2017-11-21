@@ -41,11 +41,12 @@ canvas{
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 10px;
+	border-radius: 50%;
 }
 
 .title {
   position: absolute;
-  top: 15%;
+  top: 10%;
   left: 0;
   right: 0;
 }
@@ -69,7 +70,7 @@ canvas{
 
 h1 {
   font-size: 4.5em;
-  color: black;
+  color: white;
 	background: rgba(255, 255, 255, 0.0);
   font-family: 'Droid Sans', serif;
   letter-spacing: 2px;
@@ -85,7 +86,7 @@ p {
 	background: rgba(255, 255, 255, 0.0);
   font-size: 2.3em;
   text-align: center;
-  color: black;
+  color: white;
 }
 a {
   text-decoration: none;
@@ -98,7 +99,7 @@ a {
 #particles-js{
   width: 100%;
   height: 100%;
-  background-color: #ffffff;
+  background-color: #191919;
   background-image: url('');
   background-size: cover;
   background-position: 50% 50%;
